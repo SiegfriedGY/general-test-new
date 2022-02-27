@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <script>
+        let obj = {};
+        let obj1 = {name: "zhangsan", age:99};
+        let obj2 = {name: "lisi", gender: "male"};
+
+        Object.assign(obj, obj1, obj2);
+        console.log(obj);
+
+        let obj3 = {};
+        let obj4 = {vocation: "teacher"};
+
+        obj3.__proto__ = obj4;
+        console.log(obj3.vocation);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+
+select *
+from class
+inner join student
+on class.id = student.class_id
+where student.age <= 15 and class.name = 'a1'
