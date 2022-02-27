@@ -60,4 +60,14 @@ public class Test2 {
         return sortedBySecond;
     }
 
+    public static ArrayList<String> timeSort1(ArrayList<String> times) {
+        /*
+        1. 按秒钟排序
+        2. 按分钟进行分组，每组内部排序
+        3. 按小时进行分组，每组内部排序
+         */
+
+        return null;
+    }
+
 }
