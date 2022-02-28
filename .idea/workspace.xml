@@ -19,6 +19,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="24T50CYfQ1lo9aKbN5hlQvm4RDS" />
@@ -164,6 +165,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="addition 111" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2472" y="177" key="#Notifications" timestamp="1646065677696">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state x="2472" y="177" key="#Notifications/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1646065677696" />
     <state x="2505" y="223" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1645168586273">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
@@ -184,10 +189,10 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="0" y="171" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.672/1920.0.1600.852@0.0.1280.672" timestamp="1644574516601" />
-    <state x="2852" y="131" key="CommitChangelistDialog2" timestamp="1646065495252">
+    <state x="2852" y="131" key="CommitChangelistDialog2" timestamp="1646065530570">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="2852" y="131" key="CommitChangelistDialog2/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1646065495252" />
+    <state x="2852" y="131" key="CommitChangelistDialog2/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1646065530570" />
     <state x="423" y="173" width="626" height="439" key="FileChooserDialogImpl" timestamp="1643697374975">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
@@ -253,14 +258,22 @@
     <state width="1247" height="142" key="GridCell.Tab.1.right/0.0.1280.672/1920.0.1920.1032@0.0.1280.672" timestamp="1645982865593" />
     <state width="1877" height="220" key="GridCell.Tab.1.right/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1644846187026" />
     <state width="1247" height="142" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1645974716768" />
+    <state x="1958" y="132" width="1826" height="786" key="MergeDialog" timestamp="1646065644957">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state x="1958" y="132" width="1826" height="786" key="MergeDialog/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1646065644957" />
+    <state x="3134" y="270" key="MultipleFileMergeDialog" timestamp="1646065644962">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state x="3134" y="270" key="MultipleFileMergeDialog/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1646065644962" />
     <state x="2261" y="98" key="SettingsEditor" timestamp="1645167624647">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state x="2261" y="98" key="SettingsEditor/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1645167624647" />
-    <state x="2472" y="251" key="Vcs.Push.Dialog.v2" timestamp="1646065441365">
+    <state x="2472" y="251" key="Vcs.Push.Dialog.v2" timestamp="1646065661388">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="2472" y="251" key="Vcs.Push.Dialog.v2/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1646065441365" />
+    <state x="2472" y="251" key="Vcs.Push.Dialog.v2/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1646065661388" />
     <state x="2567" y="271" width="626" height="490" key="find.popup" timestamp="1646063645619">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>

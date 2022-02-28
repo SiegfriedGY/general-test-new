@@ -110,7 +110,7 @@ public class Test2 {
         Map<Integer, Map<Integer, Map<Integer, List<String>>>> map = times.stream()
                 .collect(Collectors.groupingBy(Test2::getSecond, TreeMap::new,
                         Collectors.groupingBy(Test2::getMin, TreeMap::new,
-                                Collectors.groupingBy(Test2::getHour, TreeMap::new,
+                                Collectors.groupingBy(Test2::getHour, TreeMap::new, // 这里其实不用分组了，只需要排序，但不知道怎么办
                                         Collectors.toList()))));
         for (Map<Integer, Map<Integer, List<String>>> map1 : map.values()) {
             for (Map<Integer, List<String>> map2 : map1.values()) {
