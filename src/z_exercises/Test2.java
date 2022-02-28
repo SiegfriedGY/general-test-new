@@ -25,6 +25,7 @@ public class Test2 {
         result2.add("13:21:14");
         result2.add("13:21:26");
         System.out.println("result2.1: " + timeSort1(result2));
+        System.out.println("result2.2: " + timeSort2(result2));
     }
 
     private static int getHour(String timeStamp) {
@@ -99,4 +100,20 @@ public class Test2 {
         return result;
     }
 
+    public static ArrayList<String> timeSort2(ArrayList<String> times) {
+        ArrayList<String> result = new ArrayList<>();
+        Map<Integer, Map<Integer, Map<Integer, List<String>>>> map = times.stream()
+                .collect(Collectors.groupingBy(Test2::getSecond, TreeMap::new,
+                        Collectors.groupingBy(Test2::getMin, TreeMap::new,
+                                Collectors.groupingBy(Test2::getHour, TreeMap::new,
+                                        Collectors.toList()))));
+        for (Map<Integer, Map<Integer, List<String>>> map1 : map.values()) {
+            for (Map<Integer, List<String>> map2 : map1.values()) {
+                for (List<String> list : map2.values()) {
+                    result.addAll(list);
+                }
+            }
+        }
+        return result;
+    }
 }
