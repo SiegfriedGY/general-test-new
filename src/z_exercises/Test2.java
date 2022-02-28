@@ -9,13 +9,22 @@ public class Test2 {
         result.add("12:30:10");
         result.add("12:15:12");
         result.add("15:20:14");
-        System.out.println("result: " + timeSort(result));
+        System.out.println("result: " + timeSort1(result));
 
         ArrayList<String> result1 = new ArrayList<>();
         result1.add("12:30:10");
         result1.add("12:15:10");
         result1.add("11:20:14");
-        System.out.println("result: " + timeSort(result1));
+        System.out.println("result1: " + timeSort1(result1));
+
+        ArrayList<String> result2 = new ArrayList<>();
+        result2.add("13:58:26");
+        result2.add("12:30:14");
+        result2.add("12:15:10");
+        result2.add("18:21:14");
+        result2.add("13:21:14");
+        result2.add("13:21:26");
+        System.out.println("result2.1: " + timeSort1(result2));
     }
 
     private static int getHour(String timeStamp) {
@@ -29,6 +38,10 @@ public class Test2 {
     private static int getSecond(String timeStamp) {
         return Integer.parseInt(timeStamp.substring(6));
     }
+
+    /*
+    只能比较3个或3个以下数据
+     */
     public static ArrayList<String> timeSort(ArrayList<String> times) {
         // write code here
         ArrayList<String> sortedBySecond = times.stream()
@@ -61,13 +74,29 @@ public class Test2 {
     }
 
     public static ArrayList<String> timeSort1(ArrayList<String> times) {
-        /*
-        1. 按秒钟排序
-        2. 按分钟进行分组，每组内部排序
-        3. 按小时进行分组，每组内部排序
-         */
-
-        return null;
+        // 按秒钟分组并排序
+        Map<Integer, List<String>> map = times.stream()
+                .collect(Collectors.groupingBy(Test2::getSecond, TreeMap::new, Collectors.toList()));
+        ArrayList<String> result = new ArrayList<>();
+        for (List<String> tempList : map.values()) {
+            if (tempList.size() == 1) {
+                result.add(tempList.get(0));
+            } else {
+                // 按分钟分组并排序
+                Map<Integer, List<String>> subMap = tempList.stream()
+                        .collect(Collectors.groupingBy(Test2::getMin, TreeMap::new, Collectors.toList()));
+                for (List<String> subList : subMap.values()) {
+                    if (subList.size() == 1) {
+                        result.add(subList.get(0));
+                    } else {
+                        result.addAll(subList.stream()
+                                .sorted(Comparator.comparingInt(Test2::getHour)) // 按小时排序
+                                .collect(Collectors.toCollection(ArrayList::new)));
+                    }
+                }
+            }
+        }
+        return result;
     }
 
 }
