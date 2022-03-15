@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2175e457-85cf-4a37-b3b9-36e582066b49" name="Default Changelist" comment="add comments">
-      <change afterPath="$PROJECT_DIR$/src/z_exercises/FinancialAmountConverter.java" afterDir="false" />
+    <list default="true" id="2175e457-85cf-4a37-b3b9-36e582066b49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/number_related/BigDecimalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/z_exercises/ObjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/z_exercises/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/z_exercises/Test5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/general-test-1/z_exercises/Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/general-test-1/z_exercises/Test2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +46,20 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.FinancialAmountConverter">
+  <component name="RunManager" selected="Application.Test5">
+    <configuration name="BigDecimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number_related.BigDecimalTest" />
+      <module name="general-test-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="number_related.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FinancialAmountConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="z_exercises.FinancialAmountConverter" />
       <module name="general-test-1" />
@@ -56,34 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupingByTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.GroupingByTest" />
-      <module name="general-test-1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.Test" />
-      <module name="general-test-1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="z_exercises.Test2" />
+    <configuration name="ObjectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="z_exercises.ObjectTest" />
       <module name="general-test-1" />
       <extension name="coverage">
         <pattern>
@@ -95,12 +86,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string_and_char_related.TestSubString" />
+    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="z_exercises.Test4" />
       <module name="general-test-1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string_and_char_related.*" />
+          <option name="PATTERN" value="z_exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="z_exercises.Test5" />
+      <module name="general-test-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="z_exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test5" />
+        <item itemvalue="Application.ObjectTest" />
+        <item itemvalue="Application.Test4" />
+        <item itemvalue="Application.BigDecimalTest" />
         <item itemvalue="Application.FinancialAmountConverter" />
-        <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.GroupingByTest" />
-        <item itemvalue="Application.TestSubString" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +143,13 @@
       <workItem from="1646036265312" duration="10906000" />
       <workItem from="1646063430720" duration="2453000" />
       <workItem from="1646153938991" duration="2730000" />
-      <workItem from="1646232148478" duration="3084000" />
+      <workItem from="1646232148478" duration="3527000" />
+      <workItem from="1646317659776" duration="2908000" />
+      <workItem from="1646454523548" duration="2929000" />
+      <workItem from="1646671223694" duration="1839000" />
+      <workItem from="1647057626778" duration="2575000" />
+      <workItem from="1647244142986" duration="1484000" />
+      <workItem from="1647331240703" duration="2686000" />
     </task>
     <task id="LOCAL-00001" summary="addition">
       <created>1646055120193</created>
@@ -169,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646065754000</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add new test">
+      <created>1646235287504</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1646235287504</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +196,8 @@
     <MESSAGE value="addition 111" />
     <MESSAGE value="addition" />
     <MESSAGE value="add comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="add comments" />
+    <MESSAGE value="add new test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2472" y="177" key="#Notifications" timestamp="1646065677696">
@@ -191,11 +209,11 @@
     </state>
     <state x="390" y="145" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.672/1920.0.1600.852@0.0.1280.672" timestamp="1644828274749" />
     <state x="2505" y="223" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1645168586273" />
-    <state x="765" y="137" key="#com.intellij.ide.util.MemberChooser" timestamp="1645971464883">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state x="2685" y="208" key="#com.intellij.ide.util.MemberChooser" timestamp="1647057689263">
+      <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state x="510" y="89" key="#com.intellij.ide.util.MemberChooser/0.0.1280.672/1920.0.1920.1032@0.0.1280.672" timestamp="1644499730350" />
-    <state x="2685" y="208" key="#com.intellij.ide.util.MemberChooser/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1643722114139" />
+    <state x="2685" y="208" key="#com.intellij.ide.util.MemberChooser/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1647057689263" />
     <state x="510" y="89" key="#com.intellij.ide.util.MemberChooser/0.0.1280.672@0.0.1280.672" timestamp="1644416319859" />
     <state x="765" y="137" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1645971464883" />
     <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1645354037298">
@@ -206,50 +224,50 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="0" y="171" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.672/1920.0.1600.852@0.0.1280.672" timestamp="1644574516601" />
-    <state x="2852" y="131" key="CommitChangelistDialog2" timestamp="1646235269252">
+    <state x="2852" y="131" key="CommitChangelistDialog2" timestamp="1646235286507">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state x="525" y="0" key="CommitChangelistDialog2/0.0.1280.672/1920.0.1600.852@0.0.1280.672" timestamp="1646206679530" />
-    <state x="2852" y="131" key="CommitChangelistDialog2/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1646235269252" />
+    <state x="2852" y="131" key="CommitChangelistDialog2/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1646235286507" />
     <state x="423" y="173" width="626" height="439" key="FileChooserDialogImpl" timestamp="1643697374975">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="423" y="173" width="626" height="439" key="FileChooserDialogImpl/0.0.1280.672/1920.0.1920.1032@0.0.1280.672" timestamp="1643697374975" />
     <state x="2554" y="265" width="652" height="507" key="FileChooserDialogImpl/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1643642054621" />
-    <state width="1877" height="107" key="GridCell.Tab.0.bottom" timestamp="1646234684481">
-      <screen x="1920" y="0" width="1920" height="1032" />
+    <state width="1237" height="184" key="GridCell.Tab.0.bottom" timestamp="1647336726787">
+      <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1237" height="119" key="GridCell.Tab.0.bottom/0.0.1280.672/1920.0.1600.852@0.0.1280.672" timestamp="1646045386998" />
+    <state width="1237" height="184" key="GridCell.Tab.0.bottom/0.0.1280.672/1920.0.1600.852@0.0.1280.672" timestamp="1647336726787" />
     <state width="1557" height="260" key="GridCell.Tab.0.bottom/0.0.1280.672/1920.0.1600.852@1920.0.1600.852" timestamp="1644894841160" />
     <state width="1237" height="155" key="GridCell.Tab.0.bottom/0.0.1280.672/1920.0.1920.1032@0.0.1280.672" timestamp="1646233939349" />
-    <state width="1877" height="107" key="GridCell.Tab.0.bottom/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1646234684481" />
+    <state width="1877" height="29" key="GridCell.Tab.0.bottom/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1646584591596" />
     <state width="1237" height="51" key="GridCell.Tab.0.bottom/0.0.1280.672@0.0.1280.672" timestamp="1645353749782" />
     <state width="1877" height="129" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1645974945973" />
-    <state width="1877" height="107" key="GridCell.Tab.0.center" timestamp="1646234684481">
-      <screen x="1920" y="0" width="1920" height="1032" />
+    <state width="1237" height="184" key="GridCell.Tab.0.center" timestamp="1647336726787">
+      <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1237" height="119" key="GridCell.Tab.0.center/0.0.1280.672/1920.0.1600.852@0.0.1280.672" timestamp="1646045386998" />
+    <state width="1237" height="184" key="GridCell.Tab.0.center/0.0.1280.672/1920.0.1600.852@0.0.1280.672" timestamp="1647336726787" />
     <state width="1557" height="260" key="GridCell.Tab.0.center/0.0.1280.672/1920.0.1600.852@1920.0.1600.852" timestamp="1644894841160" />
     <state width="1237" height="155" key="GridCell.Tab.0.center/0.0.1280.672/1920.0.1920.1032@0.0.1280.672" timestamp="1646233939349" />
-    <state width="1877" height="107" key="GridCell.Tab.0.center/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1646234684481" />
+    <state width="1877" height="29" key="GridCell.Tab.0.center/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1646584591596" />
     <state width="1237" height="51" key="GridCell.Tab.0.center/0.0.1280.672@0.0.1280.672" timestamp="1645353749782" />
     <state width="1877" height="129" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1645974945973" />
-    <state width="1877" height="107" key="GridCell.Tab.0.left" timestamp="1646234684481">
-      <screen x="1920" y="0" width="1920" height="1032" />
+    <state width="1237" height="184" key="GridCell.Tab.0.left" timestamp="1647336726787">
+      <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1237" height="119" key="GridCell.Tab.0.left/0.0.1280.672/1920.0.1600.852@0.0.1280.672" timestamp="1646045386998" />
+    <state width="1237" height="184" key="GridCell.Tab.0.left/0.0.1280.672/1920.0.1600.852@0.0.1280.672" timestamp="1647336726787" />
     <state width="1557" height="260" key="GridCell.Tab.0.left/0.0.1280.672/1920.0.1600.852@1920.0.1600.852" timestamp="1644894841160" />
     <state width="1237" height="155" key="GridCell.Tab.0.left/0.0.1280.672/1920.0.1920.1032@0.0.1280.672" timestamp="1646233939349" />
-    <state width="1877" height="107" key="GridCell.Tab.0.left/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1646234684481" />
+    <state width="1877" height="29" key="GridCell.Tab.0.left/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1646584591595" />
     <state width="1237" height="51" key="GridCell.Tab.0.left/0.0.1280.672@0.0.1280.672" timestamp="1645353749781" />
     <state width="1877" height="129" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1645974945973" />
-    <state width="1877" height="107" key="GridCell.Tab.0.right" timestamp="1646234684481">
-      <screen x="1920" y="0" width="1920" height="1032" />
+    <state width="1237" height="184" key="GridCell.Tab.0.right" timestamp="1647336726787">
+      <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1237" height="119" key="GridCell.Tab.0.right/0.0.1280.672/1920.0.1600.852@0.0.1280.672" timestamp="1646045386998" />
+    <state width="1237" height="184" key="GridCell.Tab.0.right/0.0.1280.672/1920.0.1600.852@0.0.1280.672" timestamp="1647336726787" />
     <state width="1557" height="260" key="GridCell.Tab.0.right/0.0.1280.672/1920.0.1600.852@1920.0.1600.852" timestamp="1644894841160" />
     <state width="1237" height="155" key="GridCell.Tab.0.right/0.0.1280.672/1920.0.1920.1032@0.0.1280.672" timestamp="1646233939349" />
-    <state width="1877" height="107" key="GridCell.Tab.0.right/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1646234684481" />
+    <state width="1877" height="29" key="GridCell.Tab.0.right/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1646584591596" />
     <state width="1237" height="51" key="GridCell.Tab.0.right/0.0.1280.672@0.0.1280.672" timestamp="1645353749782" />
     <state width="1877" height="129" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1645974945973" />
     <state width="1247" height="142" key="GridCell.Tab.1.bottom" timestamp="1645982865593">
@@ -288,16 +306,20 @@
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state x="2261" y="98" key="SettingsEditor/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1645167624647" />
-    <state x="2472" y="251" key="Vcs.Push.Dialog.v2" timestamp="1646065852557">
+    <state x="2472" y="251" key="Vcs.Push.Dialog.v2" timestamp="1646235292985">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="2472" y="251" key="Vcs.Push.Dialog.v2/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1646065852557" />
-    <state x="2567" y="271" width="626" height="490" key="find.popup" timestamp="1646063645619">
+    <state x="2472" y="251" key="Vcs.Push.Dialog.v2/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1646235292985" />
+    <state x="2281" y="207" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1647057756319">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state x="2281" y="207" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1647057756319" />
+    <state x="2567" y="271" width="626" height="490" key="find.popup" timestamp="1646671255769">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state x="431" y="176" width="617" height="490" key="find.popup/0.0.1280.672/1920.0.1600.852@0.0.1280.672" timestamp="1644828837520" />
     <state x="431" y="176" width="617" height="490" key="find.popup/0.0.1280.672/1920.0.1920.1032@0.0.1280.672" timestamp="1645961792237" />
-    <state x="2567" y="271" width="626" height="490" key="find.popup/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1646063645619" />
+    <state x="2567" y="271" width="626" height="490" key="find.popup/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1646671255769" />
     <state x="2536" y="238" key="run.anything.popup" timestamp="1643721503812">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
@@ -320,11 +342,6 @@
           <url>file://$PROJECT_DIR$/src/algorithms_and_maths/sorting/QuickSorting.java</url>
           <line>24</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/jucdemo/TestABCRoundRobinPrint.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
