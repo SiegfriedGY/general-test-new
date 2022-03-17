@@ -6,6 +6,8 @@ import java.text.NumberFormat;
 public class BigDecimalTest {
 
     public static void main(String[] args) {
+        String value = "234.009";
+        System.out.println(new BigDecimal(value).setScale(2, BigDecimal.ROUND_HALF_UP));
 
         NumberFormat currency = NumberFormat.getCurrencyInstance(); //建立货币格式化引用
         System.out.println(currency.toString());
