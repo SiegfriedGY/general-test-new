@@ -7,7 +7,9 @@ public class BigDecimalTest {
 
     public static void main(String[] args) {
         String value = "234.009";
+        String value1 = "0.00000001";
         System.out.println(new BigDecimal(value).setScale(2, BigDecimal.ROUND_HALF_UP));
+        System.out.println(new BigDecimal(value1).setScale(2, BigDecimal.ROUND_HALF_UP));
 
         NumberFormat currency = NumberFormat.getCurrencyInstance(); //建立货币格式化引用
         System.out.println(currency.toString());
