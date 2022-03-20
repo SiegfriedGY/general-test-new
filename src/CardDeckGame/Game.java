@@ -1,5 +1,7 @@
 package CardDeckGame;
 
+import com.sun.org.apache.xpath.internal.objects.XBoolean;
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedList;
@@ -14,24 +16,25 @@ public class Game {
 //        System.out.println(deck);
         Play play = new Play((LinkedList<Card>) deck);
         new Thread(() -> {
-            while (!play.isGameOver()) {
+//            while (!play.isGameOver()) {
                 play.sendCardToA();
-            }
-            System.exit(0);
+//            }
+//            System.exit(0);
         }).start();
         new Thread(() -> {
-            while (!play.isGameOver()) {
+//            while (!play.isGameOver()) {
                 play.sendCardToB();
-            }
-            System.exit(0);
+//            }
+//            System.exit(0);
         }).start();
         new Thread(() -> {
-            while (!play.isGameOver()) {
+//            while (!play.isGameOver()) {
                 play.sendCardToC();
-            }
-            System.exit(0);
+//            }
+//            System.exit(0);
         }).start();
-
+        System.out.println("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+        System.out.println(Thread.activeCount());
     }
 
     private static List<Card> prepare() {

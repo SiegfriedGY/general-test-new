@@ -38,6 +38,7 @@ class RoundRobin {
 
     private int num = 1;    //标志位，线程间互相通信的信号灯
     private Lock lock = new ReentrantLock();
+
     // 相当于一把锁配了三把钥匙
     private Condition c1 = lock.newCondition();
     private Condition c2 = lock.newCondition();
