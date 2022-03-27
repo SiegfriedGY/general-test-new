@@ -38,7 +38,7 @@ public class Play {
                 if (sumForA > THRESHOLD) {
                     System.out.println("Player A 总分：" + sumForA +", 比赛结束！");
                     this.isGameOver = true;
-                    Thread.currentThread().stop();
+//                    Thread.currentThread().stop();
                 } else {
                     num = 2;
                     conditionB.signal();
@@ -71,7 +71,7 @@ public class Play {
                 if (sumForB > THRESHOLD) {
                     System.out.println("Player B 总分：" + sumForB +", 比赛结束！");
                     this.isGameOver = true;
-                    Thread.currentThread().stop();
+//                    Thread.currentThread().stop();
                 } else {
                     num = 3;
                     conditionC.signal();
