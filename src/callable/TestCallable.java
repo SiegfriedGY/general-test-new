@@ -34,14 +34,19 @@ public class TestCallable {
         try {
             Integer integer = future.get();
             System.out.println(integer);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (ExecutionException e) {
+        } catch (InterruptedException | ExecutionException e) {
             e.printStackTrace();
         } finally {
             executorService.shutdown();
         }
 
 
+    }
+}
+
+class MyCallable implements Callable<String>{
+    @Override
+    public String call() throws IndexOutOfBoundsException {
+        return "去你妹";
     }
 }

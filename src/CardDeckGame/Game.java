@@ -6,6 +6,9 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ThreadPoolExecutor;
 
 public class Game {
 
@@ -15,7 +18,16 @@ public class Game {
         Collections.shuffle(deck);
 //        System.out.println(deck);
         Play play = new Play((LinkedList<Card>) deck);
-        new Thread(() -> {
+
+        ExecutorService executor = Executors.newFixedThreadPool(3);
+        executor.execute(play::sendCardToA);
+        executor.execute(play::sendCardToB);
+        executor.execute(play::sendCardToC);
+        while(play.isGameOver()){
+            executor.shutdownNow();
+        }
+
+/*        new Thread(() -> {
 //            while (!play.isGameOver()) {
                 play.sendCardToA();
 //            }
@@ -32,7 +44,7 @@ public class Game {
                 play.sendCardToC();
 //            }
 //            System.exit(0);
-        }).start();
+        }).start();*/
         System.out.println("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
         System.out.println(Thread.activeCount());
     }
